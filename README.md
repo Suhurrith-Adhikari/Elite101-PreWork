@@ -12,6 +12,4 @@ Run this command to execute the application:
 
 `python filename.py`
 
- 
-
-```
+ Please find my Chatbot Projecct located in this repository!
