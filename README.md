@@ -10,6 +10,6 @@ This is a repository created by *Suhurrith*
 Run this command to execute the application:
 
 
-`python filename.py`
+`python Elite101ChatbotProject.py`
 
  Please find my Chatbot Projecct located in this repository!
