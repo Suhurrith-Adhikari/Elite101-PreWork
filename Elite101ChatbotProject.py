@@ -19,6 +19,7 @@ print("3. Print your name and age. ")
 print("4. Exit the chatbot. ")
 
 print("")
+print("")
 
 response = int(input("Enter the number of your decision: "))
 
