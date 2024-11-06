@@ -1,36 +1,34 @@
-print("Hello and welcome to Suhurrith's Chatbot!!")
+print("Hello and welcome to Suhurrith's Restaurant Chatbot!!")
 
 print("")
 
 name = input("What is your name?: ")
 
-age = int(input("Hello " + name + ", what is your age?: "))
+restaurant = input("Hello " + name + ", what is the desired restaurant?: ")
 
-print("")
-
-print("I can almost reminsice about my days when i was " + str(age) + ", Mr. " + name)
+dish = input(f"What would you like from this restaurant: {restaurant}")
 
 print("")
 
 print("Please choose from the following options: ")
-print("1. Print your name. ")
-print("2. Print your age. ")
-print("3. Print your name and age. ")
+print("1. Print your restaurant ")
+print("2. Print your dish. ")
+print("3. Call the restaurant to check on the dish. ")
 print("4. Exit the chatbot. ")
 
 print("")
-print("")
+
 
 response = int(input("Enter the number of your decision: "))
 
 if (response == 1):
-    print("Your name is " + name +".")
+    print("The name of the restaurant is " + restaurant +".")
 elif (response == 2):
-    print("Your age is " + str(age) + ".")
+    print("The name of the dish you ordered is *" + dish + "* Have a great meal.")
 elif (response == 3):
-    print("Your name is " + name + " and your age is " + str(age) + ".")
+    print(f"Calling this restaurant: *{restaurant}* . Beep....")
 elif (response == 4):
-    print("Bye, bye " + name +"! " + "You have successfully exited the chatbot.")
+    print("Bye, bye " + name +"! " + "You have successfully exited the Restaurant chatbot.")
     exit()
 else:
     print("You have entered the wrong input, please enter a number from 1-4. ")
